@@ -1,0 +1,14 @@
+body {
+	background-color: aliceblue;
+}
+
+.ducky {
+	background-image: url("images/screaming-duck.png");
+	height: 100px;
+	background-position: center;
+	border-style: ridge;
+	border-color: dodgerblue;
+	border-width: 5px;
+	margin-left: -100px;
+	margin-right: -100px;
+}

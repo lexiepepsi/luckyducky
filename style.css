@@ -2,13 +2,45 @@ body {
 	background-color: aliceblue;
 }
 
-.ducky {
+.duckybanner {
 	background-image: url("images/screaming-duck.png");
-	height: 100px;
-	background-position: center;
-	border-style: ridge;
-	border-color: dodgerblue;
-	border-width: 5px;
-	margin-left: -100px;
-	margin-right: -100px;
+	height: 180px;
+	margin: 0 auto;
+  	/*width: 100%;*/
+	/*border-style: ridge;*/
+	border-bottom: 5px ridge orange;
+	border-top: 5px ridge orange;
+	/*border-color: dodgerblue;
+	border-width: 5px;*/
+	/*margin-left: -100px;
+	margin-right: -100px;*/
 }
+
+.banner {
+	height: 180px;
+	margin: 0 auto;
+	border-bottom: 5px ridge orange;
+	border-top: 5px ridge orange;
+	background-color: aliceblue;
+}
+
+.water {
+/*	background-image: url("images/screaming-duck.png");
+*/	height: 400px;
+	margin: 0 auto;
+  	width: 100%;
+  	background-color: dodgerblue;
+}
+
+h1 {
+	font-family: 'Chewy', cursive;
+	text-align: center;
+	font-size: 100px;
+	color: tomato;
+	/*background-color: orange;
+	opacity: .8;*/
+}
+
+/*
+font-family: 'Chewy', cursive;
+font-family: 'Fredoka One', cursive;

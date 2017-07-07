@@ -2,14 +2,20 @@ body {
 	background-color: aliceblue;
 }
 
+.orangeborder div{
+	border-bottom: 5px ridge orange;
+	border-top: 5px ridge orange;
+}
+
 .duckybanner {
 	background-image: url("images/screaming-duck.png");
 	height: 180px;
 	margin: 0 auto;
+	/*display: block;*/
   	/*width: 100%;*/
 	/*border-style: ridge;*/
-	border-bottom: 5px ridge orange;
-	border-top: 5px ridge orange;
+	/*border-bottom: 5px ridge orange;
+	border-top: 5px ridge orange;*/
 	/*border-color: dodgerblue;
 	border-width: 5px;*/
 	/*margin-left: -100px;
@@ -19,14 +25,26 @@ body {
 .banner {
 	height: 180px;
 	margin: 0 auto;
-	border-bottom: 5px ridge orange;
-	border-top: 5px ridge orange;
+	/*border-bottom: 5px ridge orange;
+	border-top: 5px ridge orange;*/
 	background-color: aliceblue;
 }
 
+@media all and (max-width: 1180px) {
+	.top {
+		display: none;
+	}
+
+	.banner {
+		height: auto;
+		padding-bottom: 35px;
+		width: 100%;
+	}
+}
+
 .water {
-/*	background-image: url("images/screaming-duck.png");
-*/	height: 400px;
+	/*background-image: url("images/wave2.png");*/
+	height: 400px;
 	margin: 0 auto;
   	width: 100%;
   	background-color: dodgerblue;

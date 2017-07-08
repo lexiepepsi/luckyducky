@@ -2,7 +2,7 @@ body {
 	background-color: dodgerblue;
 }
 
-.orangeborder div {
+.top {
 	border-bottom: 5px ridge orange;
 	border-top: 5px ridge orange;
 }
@@ -12,8 +12,9 @@ body {
 	border-top: 5px ridge orange;
 }
 
+
 .duckybanner {
-	background-image: url("images/screaming-duck.png");
+	background-image: url("images/screaming-duck-50pct.png");
 	height: 180px;
 	margin: 0 auto;
 	background-color: aliceblue;
@@ -22,12 +23,13 @@ body {
 .banner {
 	height: 180px;
 	margin: 0 auto;
-	background-color: aliceblue;
+	background-color: tomato;
+	border: 5px ridge tomato;
 }
 
 .water {
-	/*background-image: url("images/wave2.png");*/
-	height: 420px;
+/*	background-image: url("images/wave2.png");
+*/	height: 400px;
 	margin: 0 auto;
   	width: 100%;
   	background-color: dodgerblue;
@@ -37,28 +39,41 @@ h1 {
 	font-family: 'Chewy', cursive;
 	text-align: center;
 	font-size: 100px;
-	color: tomato;
+	color: aliceblue;
 }
 
 .inventory {
 	width: 50%;
 	height: 170px;
-	font-family: 'Chewy', cursive;
+	font-family: 'PT Sans', sans-serif;
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
 	background-color: darkorange;
-	color: ivory;
-	border-radius: 20px;
-	font-family: 'Fredoka One', cursive;
+	color: white;
+	border-radius: 15px;
+	border: 5px ridge darkorange;
 	padding: 5px;
 	margin: 0 auto;
+	padding: 20px;
 }
 
 .item {
 	font-size: 20px;
+	text-align: center;
 }
 
-@media all and (max-width: 1180px) {
+.duck {
+	height: 69px;
+	width: 78px;
+	background-image: url("images/cartoon2.png");
+}
+
+.noduck {
+	height: 69px;
+	width: 78px;
+}
+
+@media all and (max-width: 1100px) {
 	.top {
 		display: none;
 	}
@@ -68,6 +83,19 @@ h1 {
 		padding-bottom: 35px;
 		width: 100%;
 	}
+
+	.inventory {
+		font-size: 20px;
+	}
+
+	.item {
+		font-size: 15px;
+	}
+
+	.colhide {
+		display: none;
+	}
+
 }
 
 @media all and (max-width: 550px) {
@@ -86,10 +114,6 @@ h1 {
 	}
 
 	.water {
-		height: 470px;
+		height: 400px;
 	}
 }
-
-/*
-font-family: 'Chewy', cursive;
-font-family: 'Fredoka One', cursive;
